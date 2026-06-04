@@ -12,7 +12,7 @@ public class WelcomeRestController {
 	private Logger logger = LoggerFactory.getLogger(WelcomeRestController.class);
 
 	public WelcomeRestController() {
-		logger.info("***** WelcomeRestController :: Constructor *****");
+		logger.info("***** WelcomeRestController ::            Constructor *****");
 	}
 
 	@GetMapping
@@ -30,7 +30,7 @@ public class WelcomeRestController {
 		logger.info("***** greetMsg() execution start *****");
 		String msg = "Good Morning, Welcome to Ashok IT";
 		System.out.println("testing git collaboration");
-		logger.info("***** greetMsg() execution end *****");
+		logger.info("***** greetMsg() execution end             *****");
 		int i = 10;
 		logger.info("***** greetMsg() execution successfull *****");
 		boolean status = false;
