@@ -9,6 +9,8 @@ public class SbRestAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SbRestAppApplication.class, args);
 		int i  = 10;
+		int m =50;
+		int n =400;
 		int j = 20;
 	}
 
